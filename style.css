@@ -10,14 +10,7 @@
     justify-content: space-around;
     list-style: none;
     color: white;
-
-
-
-
-
-
 }
-
 .logo-photo{
     width: 120px;
 }
@@ -33,4 +26,15 @@
 }
 .menu-gap:hover{
     color: aqua;
+}
+.ban-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient();
+
 }
